@@ -1,0 +1,14 @@
+CORES              = 6
+DEBUG              = False
+INPUT_PATH         = "../input/libraryHD/" #originalImages/library1
+OUTPUT_PATH        = "../output/libraryHD/"
+FEATURE_THRESHOLD  = 0.01 #best 0.1
+GAUSSIAN_WINDOW    = 7 #best 7
+DESCRIPTOR_SIZE    = 3 #best 3
+MATCHING_Y_RANGE   = 30 #best value for library: 30
+FOV                = 60 #best value for library: 60
+RANSAC_K           = 250 #best 250
+RANSAC_THRESHOLD   = 8 #best 8
+BLEND_WINDOW       = 6 #best value: 6
+FEATURE_CUT_X_EDGE = 10 #best 10
+FEATURE_CUT_Y_EDGE = 20 #best 20
